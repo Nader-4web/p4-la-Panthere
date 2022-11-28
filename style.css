@@ -18,9 +18,17 @@ button {
     outline: none!important;
 }
 
+a:focus{
+    border: 3px solid blue;
+}
+
 a:hover {
     text-decoration: none;
     cursor: pointer;
+}
+
+button:focus{
+    border: 3px solid blue;
 }
 
 #page-loading-blocs-notifaction {
